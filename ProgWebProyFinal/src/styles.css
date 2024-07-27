@@ -1,0 +1,354 @@
+/* PALETA DE COLORES
+ */
+.colorCremita {
+    background-color: #ffffff;
+}
+
+.colorVerdeClaro {
+    background-color: #9acc77;
+}
+
+.colorSemiObscuro {
+    background-color: #45936c;
+}
+
+.colorVerdeObscuro {
+    background-color: #334f53;
+}
+
+.colorNegroSabroso {
+    background-color: #1f0a1d;
+}
+
+.navbar-brand {
+    margin-left: 5%;
+    margin-right: 15%;
+    padding-top: 1%;
+
+
+}
+
+.nav-item {
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+
+.correo {
+    margin-top: 2%;
+    font-size: 120%;
+
+}
+
+.imagenLogo {
+    width: 5%;
+    margin-left: 2%;
+    margin-bottom: 1%;
+}
+
+
+.h1Titulo {
+    text-decoration: none;
+    color: #45936c;
+    font-size: 130%;
+}
+
+h2 {
+    margin-top: 2%;
+    /*  margin-left: 45%;
+    margin-right: 45%;  */
+    text-align: center;
+    color: #1f0a1d;
+}
+
+/* header */
+
+.jiradHeader {
+    position: relative;
+    display: inline-block;
+}
+
+.h1Headeeer{
+
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.btnBienvenido {
+    border-radius: 15%;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+.carruselCSS{
+    max-width: 70%;
+    height: 40%;
+    min-width: 70%;
+    margin-left: 15%;
+}
+
+.pIndexMain{
+    text-align: center;
+    margin: 3%;
+}
+
+.gridIndex{
+    align-self: center;
+    margin-left: 10%;
+}
+
+
+.textoMain1Index{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+}
+
+button:hover {
+    background-color: white;
+    color: #4CAF50;
+}
+
+
+/* CARDS ANIMALES*/
+
+.regresar {
+    width: 100%;
+    text-decoration: none;
+    background-color: #4CAF50;
+	padding: 5px 10px;
+    margin-top: 10%;
+	margin-bottom: 30px;
+    margin-left: 165%;
+	display: inline-block;
+	border-radius: 50px;
+	font-size: 16px;
+	border:1px solid rgba(255,255,255,.2);
+	-webkit-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+    color: #fff;
+}
+
+.regresar:hover {
+	border:1px solid #fff;
+}
+
+.regresar .fa {
+	margin-right: 15px;
+}
+
+.fotooooo {
+	width: 50%;
+	margin: 5%;
+	max-width: 500px;
+	text-align: center;
+}
+
+.contenedoooooor {
+	max-width: 1000px;
+	width: 40%;
+	margin: 5%;
+}
+
+.dropHeaderAnimals{
+    margin-left: 120%;
+    margin-top: 20%;
+    background-color: #ffffff;
+    color: black;
+    
+}
+
+.MainBackColor12{
+    background-color: #9acc77;
+}
+
+.HeaderAnimales{
+    margin-top: 2%;
+    background-color: #9acc77;
+    height: 100px;
+}
+
+.cardsGeneral {
+    margin-top: 5%;
+
+}
+
+
+h3 {
+    color: #ffffff;
+}
+
+
+/* footer */
+.footerStylos{
+    width: 100%
+}
+
+.footer {
+    margin-top: 5%;
+}
+
+
+.footerNav {
+    margin-left: 45%;
+}
+
+
+.footer2 {
+
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+h4 {
+
+    margin-left: 33%;
+    margin-right: 33%;
+    color: #ffffff;
+}
+
+
+/* RECORRIDOS */
+.HeaderRecorridos{
+    background-color: #9acc77;
+}
+
+/* FORMULARIO */
+
+/* --- Formulario --- */
+.formulario {
+	max-width: 500px;
+	width:90%;
+	margin: auto;
+	margin-bottom: 30px;
+}
+
+.formulario label {
+	display: block;
+	margin-bottom: 10px;
+}
+
+.formulario .error {
+	border: 1px solid red;
+	padding: 30px;
+	margin-bottom: 30px;
+}
+
+.formulario input[type="text"],
+.formulario input[type="file"],
+.formulario textarea {
+	width: 100%;
+	margin-bottom: 30px;
+	color: #fff;
+}
+
+.formulario input[type="text"],
+.formulario textarea {
+	padding: 10px;
+	background: none;
+	font-family: 'Slabo 27px', serif;
+	border:1px solid rgba(255,255,255,.2);
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: white;
+}
+
+
+.formulario textarea {
+	min-height: 76px;
+	max-height: 150px; 
+	max-width: 100%;
+	min-width: 100%;
+}
+
+.formulario textarea:focus {
+	border:1px solid rgba(255,255,255, .5);
+}
+
+.formulario .submit{
+    padding-top: 10%;
+	display: inline-block;
+	text-align: center;
+	color:#fff;
+	padding: 15px 20px;
+	border-radius: 50px;
+	border:1px solid rgba(255,255,255,.2);
+	background: none;
+	cursor: pointer;
+	-webkit-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+.UltimoFORM{
+    margin-bottom: 5%;
+}
+
+.formulario .submit:hover {
+	border:1px solid rgba(255,255,255,1);
+}
+
+
+.formularioSubirFoto{
+    margin-left: 30%;
+}
+
+
+/* --- Paginacion --- */
+
+.paginacion {
+	margin-bottom: 30px;
+}
+
+.paginacion ul {
+	list-style: none;
+	text-align: center;
+}
+
+.paginacion ul li {
+	display: inline-block;
+	margin:0 5px;
+	color:#fff;
+}
+
+.paginacion ul li a {
+	display: block;
+	padding:10px 20px;
+	background: #595959;
+	color:#fff;
+}
+
+.paginacion ul li a:hover {
+	background: #BB1F35;
+	text-decoration: none;
+}
+
+.paginacion ul .active {
+	background: #BB1F35;
+	padding:10px 20px;
+}
+
+.paginacion ul .disabled{
+	background: #a8a8a8;
+	padding:10px 20px;
+	cursor: not-allowed;
+}
+
+.paginacion ul .disabled:hover {
+	background: #a8a8a8;
+}

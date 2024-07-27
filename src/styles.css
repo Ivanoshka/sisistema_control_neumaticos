@@ -1,0 +1,173 @@
+/* COLORES */
+.color0 { color: #007cba; }
+.color1 { color: #98d8e8; }
+.color2 { color: #b2e2ee; }
+.color3 { color: #ccecf4; }
+.color0 { color: #e5f5f9; }
+.color5 { color: #ffffff; }
+
+body {
+    background-color: #ffffff;
+}
+
+.headerClass {
+    margin-top: 4%;
+    padding: auto;
+    text-align: center;
+    background-color: #98d8e8;
+    height: 100px;
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 25px;
+}
+
+h1 {
+    padding-top: 1%;
+    color: #ffffff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.botoon {
+    background-color: #007cba;
+    width: 40%;
+    border-radius: 9px;
+    font-weight: bold;
+}
+
+.alertError {
+    background-color: #ff0000c4;
+    color: #ffffff;
+    border-radius: 20px;
+    height: 25px;
+}
+
+button {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+
+.LOGIN {
+    margin-top: 5%;
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: center;
+}
+
+.iconLogin {
+    float: inline-end;
+    margin-top: 5%;
+    margin-left: 3%;
+}
+
+.ajusteTexto {
+    color: #007cba;
+}
+
+.helpLogin {
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-bottom: 4%;
+    border-radius: 50px;
+}
+
+.imagen {
+    text-align: center;
+    margin-top: 4%;
+}
+
+.footerLogin {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #007cba;
+    color: #ffffff;
+    height: 70px;
+    z-index: 999; /* Establece un valor alto para asegurarte de que el footer esté por encima de otros elementos */
+}
+
+.bfooterLogin {
+    margin-top: 2%;
+}
+
+.ivanoshka {
+    color: #b2e2ee;
+    font-size: 20px;
+}
+
+/* Home */
+
+.navBarColor {
+    background-color: #007cba;
+}
+
+.alertExito {
+    background-color: #56ff3fc4;
+    color: #ffffff;
+    border-radius: 20px;
+    width: 350px;
+    margin-bottom: 20px;
+}
+
+.alertFail {
+    background-color: #ff3f3fc4;
+    color: #ffffff;
+    border-radius: 20px;
+    width: 350px;
+    margin-bottom: 20px;
+}
+
+.botonEquis {
+    border-radius: 15px;
+    margin-left: 30%;
+}
+
+.h1titulo {
+    text-align: center;
+}
+
+.tituloPrincipal {
+    color: #007cba;
+}
+
+.divIcon {
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.bTextoMain {
+    background-color: #007cba;
+}
+
+/*MAIN*/
+.main {
+    background-color: brown;
+}
+
+/*ASIDE*/
+.aside {
+    background-color: blueviolet;
+}
+
+/* Media queries para dispositivos móviles */
+
+/* Pantallas más pequeñas que 768px (como teléfonos móviles) */
+@media only screen and (max-width: 767px) {
+    .headerClass {
+        width: 100%;
+        margin-left: 0;
+    }
+    .LOGIN {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .footerLogin {
+        position: static;
+        /* Quita la posición fija */
+        width: 100%;
+        /* Ajusta el ancho al 100% */
+        bottom: auto;
+        /* Elimina el posicionamiento inferior */
+    }
+}
